@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.form-select {
+  padding: 0.375rem 0.75rem !important;
+  height: 34px;
+}
+.form-select-sm{
+    width: 100px;
+}
+.pry-comp-bg {
+  background: #30344d;
+}
+.pry-comp-bg:visited,
+.pry-comp-bg:link,
+.pry-comp-bg:focus,
+.pry-comp-bg:hover{
+  background: #30344d;
+}
+.pry-comp-text {
+  color: #30344d;
+}
+.header {
+  height: auto;
+}
+.header ul li {
+  list-style: none;
+}
+.header ul li a {
+  font-size: 1rem;
+}
+.brand {
+  width: 80%;
+}
+.top-menu .fa {
+  display: none;
+}
+.menu-icon {
+  display: block;
+  right: 6px;
+  top: 6px;
+}
+.top-menu {
+  display: none;
+  margin-top: 10px;
+  transition: all 1s;
+  transition: display 1s;
+  transition: ease-in-out 1s;
+  background: #000000;
+}
+.top-banner {
+  height: 200px;
+  background: #a5d4ce;
+}
+/* new review */
+.nav-pills .nav-link {
+  color: #1a1a1a;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: #30344d;
+}
+/* login */
+.login-container {
+  width: 90%;
+  padding: 12% 0;
+}
+#forgetpax,
+#regacct {
+  width: 100px;
+}
+.top-title {
+  height: 200px;
+}
+@media (min-width: 768px) {
+  /* login */
+  .login-container {
+    width: 60%;
+  }
+  .header {
+    height: 70px;
+    padding-top: 25px;
+  }
+  .brand {
+    width: 30%;
+  }
+  .top-menu {
+    width: 70%;
+    background: none;
+  }
+  .top-menu .fa {
+    display: block;
+  }
+  .header ul li a {
+    font-size: 1rem;
+  }
+  .menu-icon {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  /* login */
+  .login-container {
+    width: 50%;
+  }
+  .header ul li a {
+    font-size: 1.2rem;
+  }
+}
