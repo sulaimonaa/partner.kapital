@@ -7,9 +7,9 @@ if (isset($_POST['submit'])) {
     $referral_code = strtoupper(bin2hex(random_bytes(4)));
 
     $mysqli = new mysqli('localhost',
-            'kapitalc',
-            '0#8mUGuZp54#Vg',
-            'kapitalc_db');
+            '',
+            '',
+            '');
     // // Check connection
     if ($mysqli->connect_errno) {
         echo 'Failed to connect to MySQL: ' . $mysqli->connect_error;
