@@ -6,9 +6,9 @@ if(isset($_SESSION['user'])){
     
     $mysqli = new mysqli(
         'localhost',
-        'kapitalc',
-        '0#8mUGuZp54#Vg',
-        'kapitalc_db'
+        '',
+        '',
+        ''
     );
     // // Check connection
     if ($mysqli->connect_errno) {
@@ -89,9 +89,9 @@ if(isset($_SESSION['user'])){
             <?php
             $mysqli = new mysqli(
                 'localhost',
-                'kapitalc',
-                '0#8mUGuZp54#Vg',
-                'kapitalc_db'
+                '',
+                '',
+                ''
             );
             // // Check connection
             if ($mysqli->connect_errno) {
@@ -125,9 +125,9 @@ if(isset($_SESSION['user'])){
                 <?php
             $mysqli = new mysqli(
                 'localhost',
-                'kapitalc',
-                '0#8mUGuZp54#Vg',
-                'kapitalc_db'
+                '',
+                '',
+                ''
             );
             // // Check connection
             if ($mysqli->connect_errno) {
