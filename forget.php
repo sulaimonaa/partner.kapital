@@ -4,9 +4,9 @@ if (isset($_POST['submit'])) {
     $email = $_POST['email'];
 
     $mysqli = new mysqli('localhost',
-            'kapitalc',
-            '0#8mUGuZp54#Vg',
-            'kapitalc_db');
+            '',
+            '',
+            '');
     // // Check connection
     if ($mysqli->connect_errno) {
         echo 'Failed to connect to MySQL: ' . $mysqli->connect_error;
