@@ -266,10 +266,10 @@ if (isset($_POST['submit'])) {
     $account_type = $_POST['account_type'];
     $access_type = $_POST['access_type'];
     $referral = $_POST['referral'];
-    $username = 'account-opening@kapitalcaretrust.com'; // your email address
-    $password = '!@#Account)(*'; // your email address password
+    $username = ''; // your email address
+    $password = ''; // your email address password
 
-    $from = 'account-opening@kapitalcaretrust.com';
+    $from = '';
     $to = "$email, $from";
     $subject = 'Account opening Registration';
     $body = "Get booking details below: \n
@@ -368,9 +368,9 @@ if (isset($_POST['submit'])) {
 
     $mysqli = new mysqli(
         'localhost',
-        'kapitalc',
-        '0#8mUGuZp54#Vg',
-        'kapitalc_db'
+        '',
+        '',
+        ''
     );
     // // Check connection
     if ($mysqli->connect_errno) {
