@@ -11,9 +11,9 @@ if (isset($_POST['submit'])) {
     } else {
         // $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
         $mysqli = new mysqli('localhost',
-            'kapitalc',
-            '0#8mUGuZp54#Vg',
-            'kapitalc_db');
+            '',
+            '',
+            '');
         // // Check connection
         if ($mysqli->connect_errno) {
             echo 'Failed to connect to MySQL: ' . $mysqli->connect_error;
